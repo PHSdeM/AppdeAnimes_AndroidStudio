@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_color"
+    tools:context=".view.CadAnimesAct">
+
+    <TextView
+        android:id="@+id/lbld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="id:" />
+
+    <EditText
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Hnome"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/lblGenero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Hgenero" />
+
+    <Spinner
+        android:id="@+id/cbxGenero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtNTemporadasCad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Htemporadas"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCadAnimes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bntCadastrar" />
+
+    <Button
+        android:id="@+id/btnFechar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnFechar" />
+</LinearLayout>

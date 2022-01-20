@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TrabalhoFinal</string>
+    <string name="bntCadastrar">Cadastrar</string>
+    <string name="btnFechar">Fechar</string>
+    <string name="Hnome">Digite o anime</string>
+    <string name="Hgenero">Qual o gênero?</string>
+    <string name="Htemporadas">Digite quantas temporadas</string>
+    <string name="btnAlterar">Alterar</string>
+    <string name="btnExcluir">Excluir</string>
+</resources>

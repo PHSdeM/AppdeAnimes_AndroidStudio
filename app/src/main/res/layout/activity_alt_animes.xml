@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_color"
+    tools:context=".view.AltAnimesAct">
+
+    <TextView
+        android:id="@+id/lbldAlt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtNomeAlt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Hnome"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/lblGeneroAlt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Hgenero" />
+
+    <Spinner
+        android:id="@+id/cbxGeneroAlt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtTemporadasAlt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Htemporadas"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnAnimesAlt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAlterar" />
+
+    <Button
+        android:id="@+id/btnFecharAlt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnFechar" />
+
+    <Button
+        android:id="@+id/btnExcluirAlt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnExcluir" />
+</LinearLayout>
